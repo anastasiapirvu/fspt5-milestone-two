@@ -10,20 +10,25 @@ You can add as many tests as you see fit.
 ------------------*/
 
 class Building {
-  constructor(colour, material, height, people) {
-    this.colour = colour;
+  constructor(size, material, height, families) {
+    this.size = size;
     this.material = material;
-    this.height = 1;
+    this.height = 0;
     this.families = 200;
   }
 
   howTallIsIt() {
-    let currentLenght = 2 * this.height;
-    return currentLenght;
+    let currentHeight = 2 + this.height;
+    return currentHeight;
   }
 
   whoLiveshere() {
     return this.families;
+  }
+  printInfo() {
+    console.log(
+      `The current height of the building is ${this.height} meters long.`
+    );
   }
 }
 

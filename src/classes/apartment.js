@@ -14,6 +14,16 @@ extends the Building class. Test it!
 
 const Building = require("./building");
 
-class Apartment {}
+class Apartment extends Building {
+  constructor(size) {
+    super(size);
+
+    this.price = 134;
+  }
+  marketValue() {
+    currentValue = this.size * this.price;
+    return currentValue;
+  }
+}
 
 module.exports = Apartment;

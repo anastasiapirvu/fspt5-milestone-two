@@ -12,8 +12,8 @@ describe("Building", () => {
     it("should be a class", () => {
       expect(isClass(Building)).to.be.true;
     });
-    it("should have properties colour, material", () => {
-      expect(building.hasOwnProperty("colour")).to.equal(true);
+    it("should have properties size, material", () => {
+      expect(building.hasOwnProperty("size")).to.equal(true);
       expect(building.hasOwnProperty("material")).to.equal(true);
     });
   });
@@ -23,9 +23,9 @@ describe("Building", () => {
       expect(Building.prototype.whoLiveshere).to.exist;
     });
 
-    it("should return height multiplied by two", () => {
+    it("should return height plus two", () => {
       building.howTallIsIt();
-      expect(building.howTallIsIt()).to.equal(building.height * 2);
+      expect(building.howTallIsIt()).to.equal(building.height + 2);
     });
   });
 });
