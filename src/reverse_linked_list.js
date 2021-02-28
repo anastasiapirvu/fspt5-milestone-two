@@ -62,7 +62,7 @@ class LinkedList {
 
     let node = this.head;
     let initialHead = this.head;
-    let prev = null;
+    let prevNode = null;
 
     // Create a variable to store the "previous" node. Since we start at the head,
     //"previous" should be null when initialized (because there's nothing "before" the head)
@@ -74,10 +74,10 @@ class LinkedList {
     // end of while
 
     while (head !== null) {
-      this.head = prev;
+      this.head = prevNode;
       let newVar = node.next;
       node.next = prev;
-      prev = node;
+      prevNode = node;
       node = node.next;
     }
 
