@@ -14,7 +14,7 @@ class Building {
     this.colour = colour;
     this.material = material;
     this.height = 1;
-    this.families = 250;
+    this.families = 200;
   }
 
   howTallIsIt() {
