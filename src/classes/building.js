@@ -9,6 +9,22 @@ You should test that they exist and that they work correctly.
 You can add as many tests as you see fit.
 ------------------*/
 
-class Building {}
+class Building {
+  constructor(colour, material, height, people) {
+    this.colour = colour;
+    this.material = material;
+    this.height = 1;
+    this.families = 250;
+  }
+
+  howTallIsIt() {
+    let currentLenght = 2 * this.height;
+    return currentLenght;
+  }
+
+  whoLiveshere() {
+    return this.families;
+  }
+}
 
 module.exports = Building;
