@@ -35,20 +35,20 @@ Give yourself a grade for each question. Explain why you gave yourself that grad
 
 ### 1. Create and extend classes
 
-- Grade:
-- Explanation:
+- Grade: 3
+- Explanation: I think I understand the basics of creating parent and child classes, although I couldn't think of more clomplex methods.
 
 ### 2. Create tests for classes
 
-- Grade:
-- Explanation:
+- Grade: 3
+- Explanation: I think I understand the logic behind running the tests, but my tests were primitive and not very well designed, probably the reason why they all passed.
 
 ### 3. Use HOFs from the Array prototype
 
-- Grade:
-- Explanation:
+- Grade: 1
+- Explanation: HoFs is probably the topic I struggle most with - I tried solving the first part before running out of time - I commented out the code on this one since the terminal would give me an error.
 
 ### 4. Create the reverse linked list method
 
-- Grade:
-- Explanation:
+- Grade: 2
+- Explanation: Thank you for the pseudo code! It really helped to break down the solution and write step by step lines of code, I think I was quite close in terms of doing all the steps to reverse the list, but couldn't pass the tests.
