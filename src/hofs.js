@@ -19,12 +19,21 @@
 // in the Array prototype (forEach, map, filter, find, reduce or others)
 // You can use as many of those as you need
 
-class Inhabitants {
-  constructor(people) {
-    this.people = people;
-  }
+// class Inhabitants {
+//   constructor(people) {
+//     this.people = people;
+//   }
 
-  getPeopleOver(age) {}
-}
+//   getPeopleOver(age) {
+//     people.forEach(age) {
 
-module.exports = Inhabitants;
+//      if (age >= this.age) {
+//     return (people.filter(age));
+
+//     }
+//     console.log(`${this.firstName} + ${this.lastName}`);
+
+//   }}
+// }
+
+// module.exports = Inhabitants;
